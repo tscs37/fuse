@@ -7,9 +7,9 @@ import (
 	"syscall"
 	"testing"
 
-	"bazil.org/fuse"
-	"bazil.org/fuse/fs"
-	"bazil.org/fuse/fs/fstestutil"
+	"github.com/tscs37/fuse"
+	"github.com/tscs37/fuse/fs"
+	"github.com/tscs37/fuse/fs/fstestutil"
 )
 
 func init() {

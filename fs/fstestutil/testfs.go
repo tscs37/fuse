@@ -4,8 +4,8 @@ import (
 	"context"
 	"os"
 
-	"bazil.org/fuse"
-	"bazil.org/fuse/fs"
+	"github.com/tscs37/fuse"
+	"github.com/tscs37/fuse/fs"
 )
 
 // SimpleFS is a trivial FS that just implements the Root method.

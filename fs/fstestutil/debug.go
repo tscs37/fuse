@@ -5,7 +5,7 @@ import (
 	"log"
 	"strconv"
 
-	"bazil.org/fuse"
+	"github.com/tscs37/fuse"
 )
 
 type flagDebug bool

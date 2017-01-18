@@ -8,9 +8,9 @@ import (
 	"log"
 	"os"
 
-	"bazil.org/fuse"
-	"bazil.org/fuse/fs"
-	_ "bazil.org/fuse/fs/fstestutil"
+	"github.com/tscs37/fuse"
+	"github.com/tscs37/fuse/fs"
+	_ "github.com/tscs37/fuse/fs/fstestutil"
 )
 
 func usage() {

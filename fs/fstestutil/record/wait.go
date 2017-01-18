@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"bazil.org/fuse"
-	"bazil.org/fuse/fs"
+	"github.com/tscs37/fuse"
+	"github.com/tscs37/fuse/fs"
 )
 
 type nothing struct{}

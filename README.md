@@ -11,7 +11,7 @@ ease of programming.
 
 Here’s how to get going:
 
-    go get bazil.org/fuse
+    go get github.com/tscs37/fuse
 
 Website: http://bazil.org/fuse/
 
@@ -21,3 +21,12 @@ API docs: http://godoc.org/bazil.org/fuse
 
 Our thanks to Russ Cox for his fuse library, which this project is
 based on.
+
+## Maintenance Fork
+
+I forked this library to `github.com/tscs37/fuse` to merge some
+maintance pull requests and fix bugs if necessary, as the original
+library seems to be inactive.
+
+If you are using the `bazil.org/fuse` import you can simply swap it out
+for the new import path.

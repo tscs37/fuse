@@ -17,12 +17,12 @@ import (
 	"testing"
 	"time"
 
-	"bazil.org/fuse"
-	"bazil.org/fuse/fs"
-	"bazil.org/fuse/fs/fstestutil"
-	"bazil.org/fuse/fs/fstestutil/record"
-	"bazil.org/fuse/fuseutil"
-	"bazil.org/fuse/syscallx"
+	"github.com/tscs37/fuse"
+	"github.com/tscs37/fuse/fs"
+	"github.com/tscs37/fuse/fs/fstestutil"
+	"github.com/tscs37/fuse/fs/fstestutil/record"
+	"github.com/tscs37/fuse/fuseutil"
+	"github.com/tscs37/fuse/syscallx"
 )
 
 // TO TEST:

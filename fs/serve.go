@@ -1,6 +1,6 @@
 // FUSE service loop, for servers that wish to use it.
 
-package fs // import "bazil.org/fuse/fs"
+package fs // import "github.com/tscs37/fuse/fs"
 
 import (
 	"context"
@@ -19,8 +19,8 @@ import (
 import (
 	"bytes"
 
-	"bazil.org/fuse"
-	"bazil.org/fuse/fuseutil"
+	"github.com/tscs37/fuse"
+	"github.com/tscs37/fuse/fuseutil"
 )
 
 const (
